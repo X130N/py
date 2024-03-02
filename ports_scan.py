@@ -51,7 +51,7 @@ def main():
     open_ports = scan_ports(ip, port_range)
     
     if(open_ports):
-        print(f"\nPOrtas abertas em {ip}: {', '.join(map(str, open_ports))}")
+        print(f"\nPortas abertas em {ip}: {', '.join(map(str, open_ports))}")
     else:
         print(f"\nNenhuma porta aberta encontrada em {ip}.")
         
